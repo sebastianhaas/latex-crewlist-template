@@ -9,16 +9,22 @@
 %\RequirePackage{tabularx}
 \title{Crew List}
 
-\newcommand{\header}[3]{\bgroup\setlength{\parindent}{0pt}
+\newcommand{\header}[5]{\bgroup\setlength{\parindent}{0pt}
 \begin{flushleft}
   {\huge{\@title}}
 
   \vspace{1cm}
   Date: {#1}
 
-  Boat: {#2}
+  Name of Vessel: {#2}
 
-  Type of Boat: {#3}
+  Type of Vessel: {#3}
+
+  \vspace{.5cm}
+
+  Skipper License: {#4}
+
+  Skipper VHF License: {#5}
 
   \vspace{1cm}
 \end{flushleft}\egroup
